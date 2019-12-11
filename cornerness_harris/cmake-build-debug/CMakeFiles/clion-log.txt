@@ -1,0 +1,5 @@
+/snap/clion/97/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/cedric/SFND_Camera/cornerness_harris
+-- Found OpenCV: /home/cedric/Downloads/opencv/build (found suitable version "4.0.0", minimum required is "4.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cedric/SFND_Camera/cornerness_harris/cmake-build-debug

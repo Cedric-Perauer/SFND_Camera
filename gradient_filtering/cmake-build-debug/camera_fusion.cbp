@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="camera_fusion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Downloads\;CMake Files\..\..\Downloads\opencv\;CMake Files\..\..\Downloads\opencv\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="magnitude_sobel">
+				<Option output="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/magnitude_sobel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cedric/Downloads/opencv/build"/>
+					<Add directory="/home/cedric/Downloads/opencv/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/core/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/flann/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgproc/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ml/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/photo/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/dnn/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/gapi/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/videoio/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/highgui/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ts/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/features2d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/calib3d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/objdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/stitching/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/video/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 magnitude_sobel"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="magnitude_sobel/fast">
+				<Option output="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/magnitude_sobel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cedric/Downloads/opencv/build"/>
+					<Add directory="/home/cedric/Downloads/opencv/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/core/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/flann/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgproc/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ml/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/photo/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/dnn/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/gapi/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/videoio/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/highgui/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ts/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/features2d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/calib3d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/objdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/stitching/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/video/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 magnitude_sobel/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gaussian_smoothing">
+				<Option output="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/gaussian_smoothing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cedric/Downloads/opencv/build"/>
+					<Add directory="/home/cedric/Downloads/opencv/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/core/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/flann/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgproc/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ml/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/photo/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/dnn/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/gapi/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/videoio/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/highgui/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ts/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/features2d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/calib3d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/objdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/stitching/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/video/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 gaussian_smoothing"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gaussian_smoothing/fast">
+				<Option output="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/gaussian_smoothing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cedric/Downloads/opencv/build"/>
+					<Add directory="/home/cedric/Downloads/opencv/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/core/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/flann/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgproc/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ml/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/photo/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/dnn/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/gapi/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/videoio/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/highgui/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ts/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/features2d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/calib3d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/objdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/stitching/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/video/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 gaussian_smoothing/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gradient_sobel">
+				<Option output="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/gradient_sobel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cedric/Downloads/opencv/build"/>
+					<Add directory="/home/cedric/Downloads/opencv/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/core/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/flann/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgproc/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ml/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/photo/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/dnn/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/gapi/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/videoio/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/highgui/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ts/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/features2d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/calib3d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/objdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/stitching/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/video/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 gradient_sobel"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gradient_sobel/fast">
+				<Option output="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/gradient_sobel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cedric/Downloads/opencv/build"/>
+					<Add directory="/home/cedric/Downloads/opencv/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/core/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/flann/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgproc/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ml/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/photo/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/dnn/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/gapi/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/videoio/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/highgui/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ts/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/features2d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/calib3d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/objdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/stitching/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/video/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 gradient_sobel/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cedric/SFND_Camera/gradient_filtering/src/gaussian_smoothing.cpp">
+			<Option target="gaussian_smoothing"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/gradient_filtering/src/gradient_sobel.cpp">
+			<Option target="gradient_sobel"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/gradient_filtering/src/magnitude_sobel.cpp">
+			<Option target="magnitude_sobel"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/gradient_filtering/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/gradient_filtering/../../Downloads/opencv/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\opencv\build\"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/gradient_filtering/../../Downloads/opencv/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\opencv\build\"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/gradient_filtering/../../Downloads/opencv/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\opencv\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
