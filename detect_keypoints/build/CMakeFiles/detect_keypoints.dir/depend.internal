@@ -100,4 +100,31 @@ CMakeFiles/detect_keypoints.dir/src/detect_keypoints.cpp.o
  /home/cedric/Downloads/opencv/modules/video/include/opencv2/video/background_segm.hpp
  /home/cedric/Downloads/opencv/modules/video/include/opencv2/video/tracking.hpp
  /home/cedric/Downloads/opencv/modules/videoio/include/opencv2/videoio.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/shape/include/opencv2/shape.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/shape/include/opencv2/shape/emdL1.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/shape/include/opencv2/shape/hist_cost.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/shape/include/opencv2/shape/shape_distance.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/shape/include/opencv2/shape/shape_transformer.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/superres/include/opencv2/superres.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/superres/include/opencv2/superres/optical_flow.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/deblurring.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/fast_marching.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/frame_source.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/global_motion.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/inpainting.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/log.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/motion_core.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/optical_flow.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/ring_buffer.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/stabilizer.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/viz/include/opencv2/viz.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/viz/include/opencv2/viz/types.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/viz/include/opencv2/viz/viz3d.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/viz/include/opencv2/viz/vizcore.hpp
+ /home/cedric/Downloads/opencv_contrib/modules/viz/include/opencv2/viz/widgets.hpp
  /home/cedric/SFND_Camera/detect_keypoints/src/detect_keypoints.cpp

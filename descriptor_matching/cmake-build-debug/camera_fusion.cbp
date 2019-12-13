@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="camera_fusion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Downloads\;CMake Files\..\..\Downloads\opencv\;CMake Files\..\..\Downloads\opencv\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="descriptor_matching">
+				<Option output="/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/descriptor_matching" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cedric/Downloads/opencv/build"/>
+					<Add directory="/home/cedric/Downloads/opencv/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/core/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/flann/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/hdf/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgproc/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ml/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/photo/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/plot/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/reg/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/viz/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/dnn/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/freetype/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/gapi/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/hfs/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/videoio/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/highgui/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ts/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/dnn_objdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/features2d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/saliency/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/text/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/calib3d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/datasets/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/objdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/shape/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/stereo/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/video/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/videostab/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/aruco/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/dpm/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/face/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/optflow/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/stitching/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/superres/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/tracking/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 descriptor_matching"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="descriptor_matching/fast">
+				<Option output="/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/descriptor_matching" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/cedric/Downloads/opencv/build"/>
+					<Add directory="/home/cedric/Downloads/opencv/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/core/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/flann/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/hdf/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgproc/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ml/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/photo/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/plot/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/reg/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/viz/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/dnn/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/freetype/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/gapi/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/hfs/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/imgcodecs/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/videoio/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/highgui/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/ts/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/dnn_objdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/features2d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/saliency/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/text/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/calib3d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/datasets/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/objdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/shape/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/stereo/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/video/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/videostab/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/aruco/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/dpm/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/face/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/optflow/include"/>
+					<Add directory="/home/cedric/Downloads/opencv/modules/stitching/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/superres/include"/>
+					<Add directory="/home/cedric/Downloads/opencv_contrib/modules/tracking/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 descriptor_matching/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/cedric/SFND_Camera/descriptor_matching/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cedric/SFND_Camera/descriptor_matching/src/descriptor_matching.cpp">
+			<Option target="descriptor_matching"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/descriptor_matching/src/structIO.cpp">
+			<Option target="descriptor_matching"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/descriptor_matching/src/structIO.hpp">
+			<Option target="descriptor_matching"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/descriptor_matching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/descriptor_matching/../../Downloads/opencv/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\opencv\build\"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/descriptor_matching/../../Downloads/opencv/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\opencv\build\"/>
+		</Unit>
+		<Unit filename="/home/cedric/SFND_Camera/descriptor_matching/../../Downloads/opencv/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\Downloads\opencv\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
