@@ -1,19 +1,13 @@
-/snap/clion/97/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/cedric/SFND_Camera/gradient_filtering
--- The C compiler identification is GNU 7.4.0
--- The CXX compiler identification is GNU 7.4.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Found OpenCV: /home/cedric/Downloads/opencv/build (found suitable version "4.0.0", minimum required is "4.0") 
--- Configuring done
--- Generating done
--- Build files have been written to: /home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug
+/snap/clion/99/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/cedric/SFND_Camera/gradient_filtering
+CMake Error at CMakeLists.txt:11 (find_package):
+  Could not find a configuration file for package "OpenCV" that is compatible
+  with requested version "4.0".
+
+  The following configuration files were considered but not accepted:
+
+    /usr/share/OpenCV/OpenCVConfig.cmake, version: 3.2.0
+
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/cedric/SFND_Camera/gradient_filtering/cmake-build-debug/CMakeFiles/CMakeOutput.log".
